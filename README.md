@@ -1,17 +1,9 @@
 # Project-NewsFeed
 
-structure of html - css
+newsfeed-app/
+├── main.py              # Main logic goes here
+├── config.py            # Your API keys and user preferences
+├── news_fetcher.py      # Function to call the News API
+├── README.md            # Project info
+├── .gitignore           # To hide secrets and unwanted files
 
-<header>
-  ├── Left: Logo / Title (📰 NewsFeed)
-  └── Right: add new something
-
-<nav>
-  ├── Home | About Us | Contact | Preferences
-
-<main>
-  ├── <aside>: Sidebar (User Preferences, Categories)
-  └── <section>: Articles with pagination (1,2,3,4,5)
-
-<footer>
-  └── Copyright text
