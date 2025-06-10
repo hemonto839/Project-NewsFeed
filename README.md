@@ -1,8 +1,14 @@
-# Project-NewsFeed
 newsfeed-app/
-├── main.py              # Main logic goes here
-├── config.py            # Your API keys and user preferences
-├── news_fetcher.py      # Function to call the News API
-├── README.md            # Project info
-├── .gitignore           # To hide secrets and unwanted files
-
+├── backend/
+│   ├── main.py              # Entry point for the backend
+│   ├── config.py            # API key and preferences
+│   ├── news_fetcher.py      # Handles API logic
+│   ├── __init__.py          # Makes this a package
+│   └── utils.py             # (Optional) helper functions
+│
+├── frontend/                # (Future) UI or frontend app
+│   └── [empty for now]
+│
+├── .gitignore
+├── requirements.txt
+├── README.md
