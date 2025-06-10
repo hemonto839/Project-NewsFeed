@@ -1,5 +1,4 @@
 # Project-NewsFeed
-
 newsfeed-app/
 ├── main.py              # Main logic goes here
 ├── config.py            # Your API keys and user preferences
