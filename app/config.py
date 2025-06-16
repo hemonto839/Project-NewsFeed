@@ -1,7 +1,5 @@
 # backend/config.py
 
-NEWS_API_KEY = "e5c73a66b5f544cb802a573611405645"  # Replace with your NewsAPI key
-
 # Map your app's categories to NewsAPI's categories
 CATEGORIES = {
     "politics": "politics",
